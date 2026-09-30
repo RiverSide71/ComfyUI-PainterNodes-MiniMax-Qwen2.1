@@ -17,7 +17,7 @@ List of nodes included in this limited extract:
 ==================
 🚀 Installation method ================
 
-    Download front Github (this repo)
+    Download from Github (this repo)
 
     ComfyUI-PainterNodes-MiniMax-Qwen2.1 folder is unpacked into the custom_nodes directory of ConfyUI:
 
