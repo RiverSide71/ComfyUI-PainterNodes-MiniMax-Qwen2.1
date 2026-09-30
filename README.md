@@ -14,8 +14,8 @@ List of nodes included in this limited extract:
 - PainterSizeSettings
 - PainterVRAM
 
-==================================================================
-🚀 Installation method
+==================
+🚀 Installation method ================
 
     Download front Github (this repo)
 
