@@ -6,18 +6,6 @@ def _register_module(module):
     NODE_DISPLAY_NAME_MAPPINGS.update(getattr(module, "NODE_DISPLAY_NAME_MAPPINGS", {}))
 
 try:
-    from . import PainterVideoCombine
-    _register_module(PainterVideoCombine)
-except Exception as e:
-    print(f"[PainterNodes] Failed to import PainterVideoCombine: {e}")
-
-try:
-    from . import PainterVideoCombine2
-    _register_module(PainterVideoCombine2)
-except Exception as e:
-    print(f"[PainterNodes] Failed to import PainterVideoCombine2: {e}")
-
-try:
     from . import PainterSizeSettings
     _register_module(PainterSizeSettings)
 except Exception as e:
